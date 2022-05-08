@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+form {
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+label {
+    display: block;
+}
+
+.form-row {
+    margin-bottom: 20px;
+}
+
+.form-row label {
+    margin-bottom: 6px;
+}
+
+select,
+textarea,
+input[type=text],
+button,
+input[type=tel],
+input[type=email] {
+    width: 100%;
+    border-radius: 2px;
+    height: 42px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: white;
+}
+
+textarea::placeholder,
+input[type=text]::placeholder,
+input[type=tel]::placeholder,
+input[type=email]::placeholder {
+    color: rgb(175, 175, 175);
+}
+
+textarea:focus,
+input[type=text]:focus,
+input[type=tel]:focus,
+select:focus,
+input[type=email]:focus {
+    outline: 0;
+    border-color: rgb(68, 176, 255);
+}
+
+textarea {
+    height: 60px;
+    padding-top: 10px;
+    padding-right: 10px;
+    min-height: 84px;
+    resize: vertical;
+    max-height: 200px;
+
+}
+
+select {
+    background-image: url(275848063_1124925164972172_6107089185862805802_n.jpg);
+    background-size: contain;
+
+}
+
+.radio-container label{
+    display: inline;
+}
+
+.radio-container label + label{
+    margin-left: 10px;
+}
+
+button {
+    display: inline-block;
+    width: auto;
+    border: 0;
+    background-color: #eee;
+}
+
+button[type=submit] {
+    background-color: rgb(68, 176, 255) ;
+    color: #eee;
+    margin-left: 15px;
+}

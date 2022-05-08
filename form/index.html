@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title> 
+            Form elemanları
+        </title>
+        <link rel="stylesheet" href="main.css">
+        <body>
+            <!--
+                - adı*
+                - tel*
+                - email*
+                - mesaj
+                - şehir
+                - cinsiyet
+            -->
+            <form action="" method="post">
+
+
+                <input type="hidden" value="id form" name="form tipi">
+
+                <div class="form-row">
+                    <label for="adi">Adı</label>
+                    <input name="adi" id="adi" type="text" required placeholder="Ozan Bektaş">
+                </div>
+
+                <div class="form-row">
+                    <label for="tel">Telefon</label>
+                    <input name="tel" id="tel" type="tel" required placeholder="Ananın nosu">
+                </div>
+
+                <div class="form-row">
+                    <label for="mail">Email</label>
+                    <input name="mail" id="mail" type="email" required placeholder="canberkgscerkez@gmail.com">
+                </div>
+                
+                <div class="form-row">
+                   <label for="mesaj">Mesaj</label>
+                   <textarea name="mesaj" id="mesaj" rows="3"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <label for="sehir">Şehir</label>
+                    <select name="sehir" id="sehir">
+                        <option value="istanbul">İstanbul</option>
+                        <option value="izmir">İzmir</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <p>Sevdiğiniz renk?</p>
+                    <div class="radio-container">
+                    <label><input name="renk"  type="radio" value="turuncu">Turuncu</label> 
+                    <label><input name="renk"  type="radio" value="mor">Mor</label>
+                </div>
+                </div>
+
+                <div class="form-row">
+                    <button type="reset">Sıfırla</button>
+                    <button type="submit">Gönder</button>
+                </div>
+
+
+                
+            </form>
+
+
+        </body>
+    </head>
+</html>
